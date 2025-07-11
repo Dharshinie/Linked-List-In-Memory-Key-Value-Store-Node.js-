@@ -164,7 +164,7 @@ npx nodemon index.js
 
 This will start the server at:
 
-📡 http://localhost:3000
+📡 http://localhost:4000
 
 ---
 
