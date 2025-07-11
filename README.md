@@ -37,18 +37,26 @@
 linkedList-nodejs-project/
 │
 ├── index.js # Express server with API routes
+
 ├── linkedList.js # Linked list class with custom DB logic
+
 ├── package.json # Node dependencies
+
 └── README.md # Project documentation
 
 ---
 
 🛠️ API Endpoints
 Method	  Endpoint	       Description
+
 POST	- /insert	   -   Insert a key-value pair
+
 GET	    - /get/:key	   -   Get value by key
+
 PUT	    - /update	   -   Update value for a key
+
 DELETE	- /delete/:key -   Delete a key-value pair
+
 GET	    - /all	       -   List all data
 
 ---
