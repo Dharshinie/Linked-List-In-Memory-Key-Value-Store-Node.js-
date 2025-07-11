@@ -47,7 +47,7 @@ linkedList-nodejs-project/
 ---
 
 🛠️ API Endpoints
-Method	  Endpoint	       Description
+Method	   Endpoint	        Description
 
 POST	- /insert	   -   Insert a key-value pair
 
@@ -126,6 +126,35 @@ GET http://localhost:4000/all
 //DELETE
 DELETE http://localhost:4000/delete/1
 "Deleted successfully"
+
+---
+
+### Sample Output
+
+![Sample Output](https://github.com/user-attachments/assets/c31069dd-f4fc-4bf0-b9a2-403564e8f7b5)
+
+---
+
+🚀 How to Use This Project
+🛠️ Prerequisites
+Make sure you have the following installed:
+Node.js (v14 or later)
+npm (comes with Node.js)
+
+📥 1. Clone the Repository
+git clone https://github.com/Dharshinie/Linked-List-In-Memory-Key-Value-Store-Node.js-.git
+cd Linked-List-In-Memory-Key-Value-Store-Node.js-
+
+📦 2. Install Dependencies
+npm install
+
+▶️ 3. Run the Server
+node index.js
+Or, if you're using nodemon (dev tool):
+npx nodemon index.js
+
+This will start the server at:
+📡 http://localhost:3000
 
 ---
 
