@@ -61,6 +61,8 @@ POST http://localhost:4000/insert
   "value": "Dharshinie"
 }
 
+
+
 //GET
 GET http://localhost:4000/get/1
 {
@@ -68,12 +70,16 @@ GET http://localhost:4000/get/1
   "value": "Dharshinie"
 }
 
+
+
 //UPDATE
 PUT http://localhost:4000/update
 {
   "key": "1",
   "value": "Updated Value"
 }
+
+
 
 
 //PRINT ALL
@@ -105,6 +111,8 @@ GET http://localhost:4000/all
         "value": "dharshinie"
     }
 ]
+
+
 
 
 //DELETE
